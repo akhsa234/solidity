@@ -12,13 +12,6 @@ contract abstractHelloWorld {
 }
 contract helloWorld is abstractHelloWorld {
 
-    function getValue() public view returns (uint);
-    function setValue(uint newValues) public ;
-    function addNumber(uint newValues) public returns(uint){
-        return simpleInt + newValues ;
-
-    }
-
     uint private simpleInt;
 
     function getValue() public view returns (uint){
@@ -28,7 +21,13 @@ contract helloWorld is abstractHelloWorld {
     function setValue(uint newSimpleInt) public  {
         simpleInt = newSimpleInt;
     }
+
+    function addNumber(uint newValues) public returns(uint){
+        return simpleInt + newValues ;
+
+    }
 }
+
 contract client  {
 
     abstractHelloWorld myObj ;
