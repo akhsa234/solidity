@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0c1387-19cc-4743-bf71-014369bfe48e" name="Changes" comment="commit 3- client (version 1&amp;2) &amp; helloWorld&#10;using both address of contract and new">
-      <change afterPath="$PROJECT_DIR$/parentContract.sol" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sumContract.sol" afterDir="false" />
+    <list default="true" id="7f0c1387-19cc-4743-bf71-014369bfe48e" name="Changes" comment="commit Abstracts contracts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newStructure.sol" beforeDir="false" afterPath="$PROJECT_DIR$/newStructure.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <workItem from="1652792925296" duration="261000" />
       <workItem from="1652793232544" duration="176000" />
       <workItem from="1652793524036" duration="2277000" />
-      <workItem from="1653054471343" duration="2530000" />
+      <workItem from="1653054471343" duration="6136000" />
     </task>
     <task id="LOCAL-00001" summary="commit 3- client (version 1&amp;2) &amp; helloWorld&#10;using both address of contract and new">
       <created>1653055235733</created>
@@ -116,7 +115,70 @@
       <option name="project" value="LOCAL" />
       <updated>1653055235733</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit 4- multiple inheritance , Single inheritance">
+      <created>1653116951490</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653116951490</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit 5- Function polymorphism or method overloading">
+      <created>1653117511929</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653117511929</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commit 6- contract Polymorphism --&gt;  parentContractVersion2">
+      <created>1653117846622</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653117846622</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit 3- Single inheritance">
+      <created>1653118445471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1653118445471</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit 2- Using the new keyword , Using address of a contract">
+      <created>1653118634086</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653118634086</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commit 4- multiple inheritance">
+      <created>1653118687920</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1653118687920</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit Abstracts contracts">
+      <created>1653126748574</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1653126748574</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commit Abstracts interface">
+      <created>1653127248022</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653127248022</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit Abstracts contracts">
+      <created>1653127276614</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653127276614</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +198,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit election, GeneralStructure" />
     <MESSAGE value="commit 3- client (version 1&amp;2) &amp; helloWorld&#10;using both address of contract and new" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 3- client (version 1&amp;2) &amp; helloWorld&#10;using both address of contract and new" />
+    <MESSAGE value="commit 4- multiple inheritance , Single inheritance" />
+    <MESSAGE value="commit 5- Function polymorphism or method overloading" />
+    <MESSAGE value="commit 6- contract Polymorphism --&gt;  parentContractVersion2" />
+    <MESSAGE value="commit 3- Single inheritance" />
+    <MESSAGE value="commit 2- Using the new keyword , Using address of a contract" />
+    <MESSAGE value="commit 4- multiple inheritance" />
+    <MESSAGE value="commit Abstracts interface" />
+    <MESSAGE value="commit Abstracts contracts" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit Abstracts contracts" />
   </component>
 </project>
