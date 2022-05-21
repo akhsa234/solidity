@@ -1,5 +1,6 @@
 pragma solidity 0.4.19;
-
+// version 1 --> Using the new keyword
+//version 2 --> Using address of a contract
 contract helloWorld {
 
          uint private simpleInt;
