@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0c1387-19cc-4743-bf71-014369bfe48e" name="Changes" comment="commit Abstracts contracts">
+    <list default="true" id="7f0c1387-19cc-4743-bf71-014369bfe48e" name="Changes" comment="commit -- &gt; using Call method">
+      <change afterPath="$PROJECT_DIR$/src/abstractHelloWorld.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/functionPolymorphism.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helloWorld.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/newStructure.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parentContract.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/parentContractVersion2.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sumContract.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newStructure.sol" beforeDir="false" afterPath="$PROJECT_DIR$/newStructure.sol" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IHelloWorld.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/abstractHelloWorld.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/functionPolymorphism.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloWorld.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newStructure.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentContract.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parentContractVersion2.sol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sumContract.sol" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +48,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -45,6 +60,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -106,7 +126,8 @@
       <workItem from="1652792925296" duration="261000" />
       <workItem from="1652793232544" duration="176000" />
       <workItem from="1652793524036" duration="2277000" />
-      <workItem from="1653054471343" duration="6136000" />
+      <workItem from="1653054471343" duration="6551000" />
+      <workItem from="1653127729239" duration="4349000" />
     </task>
     <task id="LOCAL-00001" summary="commit 3- client (version 1&amp;2) &amp; helloWorld&#10;using both address of contract and new">
       <created>1653055235733</created>
@@ -178,7 +199,49 @@
       <option name="project" value="LOCAL" />
       <updated>1653127276614</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="commit contracts">
+      <created>1653127329729</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653127329729</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commit Interfaces">
+      <created>1653127360166</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653127360166</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commit --&gt;  with or without modifier">
+      <created>1653209169708</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1653209169708</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit --&gt;  parameters">
+      <created>1653209195383</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1653209195383</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit -- &gt; Interfaces">
+      <created>1653209254467</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653209254467</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit -- &gt; using Call method">
+      <created>1653235526960</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1653235526960</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +269,12 @@
     <MESSAGE value="commit 4- multiple inheritance" />
     <MESSAGE value="commit Abstracts interface" />
     <MESSAGE value="commit Abstracts contracts" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Abstracts contracts" />
+    <MESSAGE value="commit contracts" />
+    <MESSAGE value="commit Interfaces" />
+    <MESSAGE value="commit --&gt;  with or without modifier" />
+    <MESSAGE value="commit --&gt;  parameters" />
+    <MESSAGE value="commit -- &gt; Interfaces" />
+    <MESSAGE value="commit -- &gt; using Call method" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit -- &gt; using Call method" />
   </component>
 </project>
