@@ -23,13 +23,13 @@ contract client {
     }
 
 
-
-
-    function useNewKeyword() public returns (uint){ //version 1
-        helloWorld myObj = new helloworld();
-        myObj.setValue(10);
-        return myObj.getValue();
-    }
+//
+//
+//    function useNewKeyword() public returns (uint){ //version 1
+//        helloWorld myObj = new helloworld();
+//        myObj.setValue(10);
+//        return myObj.getValue();
+//    }
 
     function useExistingAddress() public returns (uint){ //version 2
         helloWorld myObj = new helloworld(obj);
