@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0c1387-19cc-4743-bf71-014369bfe48e" name="Changes" comment="commit Abstracts contracts">
+    <list default="true" id="7f0c1387-19cc-4743-bf71-014369bfe48e" name="Changes" comment="change file name">
+      <change afterPath="$PROJECT_DIR$/src/test/First.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Second.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test1.sol" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test2.sol" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/newStructure.sol" beforeDir="false" afterPath="$PROJECT_DIR$/newStructure.sol" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="Push.Settings">
+    <force-push-targets>
+      <force-push-target remote-path="origin" branch="main" />
+    </force-push-targets>
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -107,6 +115,7 @@
       <workItem from="1652793232544" duration="176000" />
       <workItem from="1652793524036" duration="2277000" />
       <workItem from="1653054471343" duration="6136000" />
+      <workItem from="1653378294082" duration="2017000" />
     </task>
     <task id="LOCAL-00001" summary="commit 3- client (version 1&amp;2) &amp; helloWorld&#10;using both address of contract and new">
       <created>1653055235733</created>
@@ -178,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653127276614</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="change file name">
+      <created>1653297405656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653297405656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +222,7 @@
     <MESSAGE value="commit 4- multiple inheritance" />
     <MESSAGE value="commit Abstracts interface" />
     <MESSAGE value="commit Abstracts contracts" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit Abstracts contracts" />
+    <MESSAGE value="change file name" />
+    <option name="LAST_COMMIT_MESSAGE" value="change file name" />
   </component>
 </project>
